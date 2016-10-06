@@ -1,0 +1,85 @@
+a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  font-size: 16px;
+  font-family: 'Rock Salt', cursive;
+  height: 120px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navbar-brand {
+  padding-top: 49px;
+  font-size: 64px;
+}
+
+.navbar-right {
+  padding-top: 32px;
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.jumbotron {
+  background-image:url("jumbopicture4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25%;
+  margin-top: -12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: 'Rock Salt', cursive;
+  font-size: 70px;
+  color: #FFF;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
+.jumbotext {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  font-weight: bolder;
+}
+
+.panel {
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -23px;
+  color: #FFF;
+  background-color: #000000;
+  opacity: 0.7;
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+footer {
+  background-color: #D64541;
+  width: 100%;
+  position: absolute;
+  height: auto;
+  margin-top: -12px;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 2%;
+  float: right;
+}
+
+footer p {
+  float: left;
+  padding: 2%;
+}
+
+footer a, footer p {
+  color: #fff;
+  vertical-align: middle;
+}
